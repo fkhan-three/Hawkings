@@ -1,1 +1,206 @@
-
+{
+    "rsid": "threecoukprod",
+    "globalFilters": [
+        {
+            "type": "dateRange",
+            "dateRange": "2022-11-30T00:00:00.000/2022-12-01T00:00:00.000"
+        }
+    ],
+    "metricContainer": {
+        "metrics": [
+            {
+                "columnId": "1",
+                "id": "metrics/visitors",
+                "filters": [
+                    "0"
+                ]
+            },
+            {
+                "columnId": "2",
+                "id": "metrics/visitors",
+                "filters": [
+                    "1"
+                ]
+            },
+            {
+                "columnId": "3",
+                "id": "metrics/visitors",
+                "filters": [
+                    "2"
+                ]
+            },
+            {
+                "columnId": "4",
+                "id": "metrics/visitors",
+                "filters": [
+                    "3"
+                ]
+            },
+            {
+                "columnId": "5",
+                "id": "metrics/visitors",
+                "filters": [
+                    "4"
+                ]
+            },
+            {
+                "columnId": "6",
+                "id": "metrics/visitors",
+                "filters": [
+                    "5"
+                ]
+            },
+            {
+                "columnId": "8",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "6"
+                ]
+            },
+            {
+                "columnId": "9",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "7"
+                ]
+            },
+            {
+                "columnId": "10",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "8"
+                ]
+            },
+            {
+                "columnId": "11",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "9"
+                ]
+            },
+            {
+                "columnId": "12",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "10"
+                ]
+            },
+            {
+                "columnId": "13",
+                "id": "cm1883_582c7f58d829371bb850844b",
+                "filters": [
+                    "11"
+                ]
+            }
+        ],
+        "metricFilters": [
+            {
+                "id": "0",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "4194227074"
+            },
+            {
+                "id": "1",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1436535083"
+            },
+            {
+                "id": "2",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1169576612"
+            },
+            {
+                "id": "3",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1214467544"
+            },
+            {
+                "id": "4",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "3981289331"
+            },
+            {
+                "id": "5",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "3878005677"
+            },
+            {
+                "id": "6",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "4194227074"
+            },
+            {
+                "id": "7",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1436535083"
+            },
+            {
+                "id": "8",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1169576612"
+            },
+            {
+                "id": "9",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "1214467544"
+            },
+            {
+                "id": "10",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "3981289331"
+            },
+            {
+                "id": "11",
+                "type": "breakdown",
+                "dimension": "variables/product.3",
+                "itemId": "3878005677"
+            }
+        ]
+    },
+    "dimension": "variables/daterangehour",
+    "settings": {
+        "countRepeatInstances": true,
+        "includeAnnotations": true,
+        "limit": 400,
+        "page": 0,
+        "dimensionSort": "asc",
+        "nonesBehavior": "return-nones"
+    },
+    "statistics": {
+        "functions": [
+            "col-max",
+            "col-min"
+        ]
+    },
+    "capacityMetadata": {
+        "associations": [
+            {
+                "name": "applicationName",
+                "value": "Analysis Workspace UI"
+            },
+            {
+                "name": "projectId",
+                "value": "63440662fdb5337264d01259"
+            },
+            {
+                "name": "projectName",
+                "value": "Hawking Pre-test Analysis - Nov 2022"
+            },
+            {
+                "name": "panelName",
+                "value": "Freeform table"
+            }
+        ]
+    }
+}
